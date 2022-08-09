@@ -429,6 +429,11 @@ textarea {
     margin: 0 auto;
   }
 
+  .form-info {
+    width: 90%;
+    height: 220px;
+  }
+
   form {
     width: 63%;
   }
