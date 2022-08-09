@@ -325,3 +325,115 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+/** Form Style **/
+
+.form-div {
+  display: flex;
+  justify-content: center;
+  padding: 5% 3%;
+}
+
+.name-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.first-name-input {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.last-name-input {
+  width: 50%;
+}
+
+::placeholder {
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.input-wrapper,
+.email-wrapper {
+  border-bottom: 1px solid #ccc;
+}
+
+.email-wrapper {
+  margin-bottom: 20px;
+}
+
+input {
+  outline: none;
+  border: none;
+  line-height: 0;
+  padding: 7px;
+}
+
+.form-info {
+  width: 550px;
+  height: 256px;
+  margin-right: 3%;
+}
+
+.form-info > p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+form > button {
+  width: 25%;
+  display: block;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #fff;
+  margin-top: 0.8rem;
+  padding: 10px;
+  background: #f55800;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+textarea {
+  border: none;
+  outline: none;
+  background: #fbf8f7;
+}
+
+.btn-get:hover {
+  background: #fff;
+  color: #f55800;
+  outline: 1px solid #f55800;
+}
+
+@media (max-width: 988px) {
+  .form-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  form {
+    width: 63%;
+  }
+
+  form > button {
+    width: 40%;
+  }
+}
