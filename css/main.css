@@ -377,7 +377,7 @@ input {
   margin-right: 3%;
 }
 
-.form-info > p {
+.form-info > h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -431,7 +431,7 @@ textarea {
 
   .form-info {
     width: 90%;
-    height: 220px;
+    height: 40vw;
   }
 
   form {
@@ -440,5 +440,6 @@ textarea {
 
   form > button {
     width: 40%;
+    font-size: 3vw;
   }
 }
